@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #181a19;
+    text-align: center;
+    font-weight: bold;
+}
+
+html, body{
+    background-color: #93ddcb;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#tabla1, #tabla2, #tabla3, #tabla4{
+    margin: auto;
+    padding: 5%;
+    text-align: center;
+    border: 3px solid blueviolet;
+    
+}
+
+
+
+label{
+    
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(173, 32, 216);
+    font-family: 'Helvetica', 'Verdana', 'Monaco', sans-serif;
+}
+h1{
+    padding: 3%;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  
+}
+
+footer{
+    padding: 3%;
+}
+
+p {
+    color: white;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    animation-name: slidein;
+    animation-direction: alternate;
+
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+ }
+ .mydiv{
+     position: absolute;
+     width: 100vw;
+     height: 60vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 30px;
+     font-weight: bold;
+     background: linear-gradient(150deg, #eba102, #f10271, #00c298);
+     background-size: 400% 300%;
+     animation: BgGradient 5s ease infinite;
+ }
+ @keyframes BgGradient{
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+ 
+
+
